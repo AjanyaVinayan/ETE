@@ -8,7 +8,7 @@ nltk.download('vader_lexicon')
 
 st.set_page_config(page_title="GATEWAYS 2025", layout="wide")
 
-df = pd.read_csv("C5-FestDataset - fest_dataset.csv")
+df = pd.read_csv("fest_dataset.csv")
 
 st.markdown("""
 <style>
